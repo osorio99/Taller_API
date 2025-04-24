@@ -1,16 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Header from "./Components/Header/Header"
+import Footer from "./Components/Footer/Footer"
+import MainContainer from "./Pages/MainContainer"
+
 
 function App() {
  
 
   return (
     <>
-       <div  className="App">
+       <div  className="flex flex-col min-h-screen">
       <Header />
-      <main className="main">
+      <main className="flex-grow container mx-auto p-4">
         <MainContainer />
       </main>
       <Footer />

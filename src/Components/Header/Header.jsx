@@ -1,5 +1,6 @@
+import "../../Styles/Components/Header.css"
 const Header = () => (
-    <header className="bg-blue-600 text-white p-4 text-center">
+    <header className="header">
       <h1>Tendencia Moderna</h1>
     </header>
   );
