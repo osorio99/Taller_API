@@ -16,7 +16,7 @@ const MainContainer = () => {
         p.title.toLowerCase().includes(searchTerm.toLowerCase())
       );
         //aqui llamamos a la api y guardamos los productos en el estado products
-        //aqui filtramos los productos por el search term
+        //y filtramos los productos por el search term
   return (
     <>
        <SearchBar setSearchTerm={setSearchTerm} />
@@ -28,7 +28,7 @@ const MainContainer = () => {
         
     </>
     //aqui renderizamos los productos filtrados
-    //aqui renderizamos el search bar
+    //y renderizamos el search bar
   )
 }
 
